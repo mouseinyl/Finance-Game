@@ -11,50 +11,80 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper green_page">
-                <ul class="right">
-                    <li class="anclas hide-on-med-and-down">
-                        <ul>
-                            <li>
-                                <a href="#firts_box">¿Que es? </a>
-                            </li>
-                            <li>
-                                <a href="#thirt_box_conten">Instruciones</a>
-                            </li>
-                            <li>
-                                <a href="# "> jugar </a>
-                            </li>
-                            <li class="puntaje">
-                                <a href="# " class="puntaje ">50 xp</a>
-                            </li>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper green_page">
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <a href="#" class="logo brand-logo">
+                        <img src="./recursos/juego_de_finanzas-07.png" alt="" srcset="">
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="anclas ">
+                            <ul>
+                                <li>
+                                    <a href="#firts_box">¿Que es? </a>
+                                </li>
+                                <li>
+                                    <a href="#thirt_box_conten">Instruciones</a>
+                                </li>
+                                <li>
+                                    <a href="# "> jugar </a>
+                                </li>
+                                <li class="puntaje">
+                                    <a href="# " class="puntaje ">50 xp</a>
+                                </li>
 
-                        </ul>
-                    </li>
-                    <li class="right">
-                        <a class="btn small btn_nav">registrarse</a>
-                    </li>
-                    <li class="right">
-                        <a class="btn small btn_nav">Iniciar Sesion </a>
-                    </li>
-                </ul>
-                <a href="#" class="logo left">
-                    <img src="./recursos/juego_de_finanzas-07.png" alt="" srcset="">
-                </a>
-            </div>
-        </nav>
-    </div>
+                            </ul>
+                        </li>
+                        <li class="right">
+                            <a class="btn small btn_nav">registrarse</a>
+                        </li>
+                        <li class="right">
+                            <a class="btn small btn_nav">Iniciar Sesion </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="side-nav green_page center" id="mobile-demo">
+            <li>
+                <img src="./recursos/juego_de_finanzas-07.png" alt="" srcset="">
+            </li>
+            <li>
+                <a href="#firts_box" class="mobile_list">¿Que es? </a>
+            </li>
+            <li>
+                <a href="#thirt_box_conten" class="mobile_list">Instruciones</a>
+            </li>
+            <li>
+                <a href="#cart" class="mobile_list"> Jugar </a>
+            </li>
+            <li class="" style="margin: 10%;">
+                <a class="btn small goldenrod">Iniciar Sesion </a>
+            </li>
+
+            <!-- <li class="puntaje">
+                <a href="# " class="puntaje white-text">50 xp</a>
+            </li> -->
+            <!-- <li class="">
+                <a class="btn small btn_nav">registrarse</a>
+            </li>
+            <li class="">
+                <a class="btn small btn_nav">Iniciar Sesion </a>
+            </li> -->
+        </ul>
+    </header>
 
     <div class="row">
         <!-- firts_box -->
         <div class="col s12 firts_box" id="firts_box">
-            <div class="col s12 m5 l5 offset-l1 offset-m1">
+            <div class="col s12 m5 l5 offset-l1 ">
                 <img src="./recursos/juego_de_finanzas-01.jpg" alt="">
             </div>
             <div class="col s12 m6 l6 center text blue_page_text">
                 <h4 class="col s12 center">¿Que es <span>FINANCE GAME</span>?</h4>
-                <p class="col s12 m8 l8 offset-m2 offset-l2">
+                <p class="col s12 m12 l8  offset-l2">
                     Es una herramienta tecnologica que permite el apredinzaje de activo de las finanzas personales y familiares de manera divertida y entretenidad
                 </p>
             </div>
@@ -64,7 +94,7 @@
             <div class="col s12 test blue_page">
                 <div class="col s12 box_of_data  ">
                     <p class="col s12 white-text center">Puedes acceder a FINANCE GAME <br> desde cualquier dispositivo</p>
-                    <div class="col s12 m6 l6 offset-l3 offset-m3 "><img class="" src="./recursos/disposivos.png" alt=""></div>
+                    <div class="col s12 m8 l6 offset-l3 offset-m2 "><img class="" src="./recursos/disposivos.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -74,17 +104,17 @@
         <!-- thirt_box -->
         <div class="col s12 thirt_box_conten goldenrod" id="thirt_box_conten">
             <div class="col s10 offset-s1 thirt_box white-text">
-                <div class="col s7 m2 l2 offset-s2 offset-m5 offset-l5"><img src="./recursos/book_tag.png" alt="" srcset=""></div>
+                <div class="col s7 m4 l2 offset-s2 offset-m4 offset-l5"><img src="./recursos/book_tag.png" alt="" srcset=""></div>
                 <span class="col s12 center">Instruciones para jugar de</span>
                 <h5 class="col s12 center ">FINANCE GAME</h5>
-                <p class="col s12 m6 m6 center offset-l3 offset-m3">El juego consiste en responder un cuestionario de 10 preguntas de finanzas personales y familiar. la respuestas a esas preguntas se encuentran entre los textos de lectura.
+                <p class="col s12 m10 m6 center offset-l3 offset-m1">El juego consiste en responder un cuestionario de 10 preguntas de finanzas personales y familiar. la respuestas a esas preguntas se encuentran entre los textos de lectura.
                 </p>
                 <h5 class="col s12 center">Aprende sobre:</h5>
             </div>
 
             <!-- cartas -->
-            <div class="col s11 offset-s1 cart white-text">
-                <div class="col s5 m2 l2 cart_conten darken-4">
+            <div class="col s11 offset-s1 cart white-text" id="cart">
+                <div class="col s5 m5 l2 cart_conten darken-4">
                     <div class="strech">
                         <span class="col s12 center blue_page label">Finanzas Personales</span>
                         <img src="./recursos/tipo_de_finazas.png" alt="">
@@ -95,7 +125,7 @@
 
                     </div>
                 </div>
-                <div class="col s5 m2 l2 cart_conten darken-4">
+                <div class="col s5 m5 l2 cart_conten darken-4">
                     <div class="block strech">
                         <span class="col s12 center blue_page label">Finanzas Personales</span>
                         <img src="./recursos/tipo_de_finazas.png" alt="">
@@ -106,7 +136,7 @@
                         <img src="./recursos/lock.png" class="object darken-1">
                     </div>
                 </div>
-                <div class="col s5 m2 l2 cart_conten darken-4">
+                <div class="col s5 m5 l2 cart_conten darken-4">
                     <div class="block strech">
                         <span class="col s12 center blue_page label">Finanzas Personales</span>
                         <img src="./recursos/tipo_de_finazas.png" alt="">
@@ -129,6 +159,9 @@
 
     <script type=" text/javascript " src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
     <script type="text/javascript " src="js/materialize.min.js "></script>
+    <script>
+        $(".button-collapse").sideNav();
+    </script>
 </body>
 
 </html>
