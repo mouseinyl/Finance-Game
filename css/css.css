@@ -3,6 +3,31 @@
     padding: 0px;
 }
 
+.row .strech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.row .around {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row .between {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* .row . {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
 @font-face {
     font-family: 'Myriad Pro Condensed';
     font-style: normal;
@@ -91,8 +116,15 @@ nav {
 }
 
 .logo {
-    width: 9%;
-    margin-left: 5%;
+    position: relative;
+    width: 8%;
+    top: 7%;
+    left: 7%;
+    /* smal */
+    /* position: relative;
+    width: 8%;
+    top: 17%;
+    left: 7%; */
 }
 
 .puntaje {
@@ -124,3 +156,66 @@ nav {
     opacity: 0.8;
     background: rgba(255, 72, 72, 0.835);
 }
+
+
+/*fin nav  */
+
+
+/* firts_box  init*/
+
+.firts_box .text {
+    margin-top: 7%;
+}
+
+.firts_box .text h4 {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.firts_box .text h4 span {
+    font-style: italic;
+}
+
+.firts_box .text p {
+    font-stretch: ultra-expanded;
+    font-size: 17px;
+}
+
+
+/*firts_box fin */
+
+
+/* second box */
+
+.second_box {
+    padding: 0px !important;
+}
+
+.second_box .box_of_data {
+    transform: rotate(1.11deg);
+    -webkit-transform: rotate(1.11deg);
+    -moz-transform: rotate(1.11deg);
+    -ms-transform: rotate(1.11deg);
+    -o-transform: rotate(1.11deg);
+    height: inherit;
+}
+
+.second_box .box_of_data p {
+    margin-top: 5%;
+}
+
+.second_box .box_of_data img {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.test {
+    transform: matrix(1, -0.03, 0, 1, 0, 110);
+    -webkit-transform: matrix(1, -0.03, 0, 1, 0, 110);
+    -moz-transform: matrix(1, -0.03, 0, 1, 0, 110);
+    -ms-transform: matrix(1, -0.03, 0, 1, 0, 110);
+    -o-transform: matrix(1, -0.03, 0, 1, 0, 110);
+}
+
+
+/*  second box */
