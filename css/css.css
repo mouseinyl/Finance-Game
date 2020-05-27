@@ -80,3 +80,47 @@ img {
 
 
 /*  */
+
+
+/* 
+
+nav */
+
+nav {
+    font-weight: 600
+}
+
+.logo {
+    width: 9%;
+    margin-left: 5%;
+}
+
+.puntaje {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.anclas li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn_nav {
+    box-shadow: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn_nav {
+    background-color: transparent;
+    color: white;
+}
+
+.btn_nav:hover {
+    opacity: 0.8;
+    background: rgba(255, 72, 72, 0.835);
+}
