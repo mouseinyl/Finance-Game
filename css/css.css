@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'Myriad Pro Condensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Myriad Condensed.otf'), url('../fonts/Myriad Condensed.otf') format('otf');
+}
+
+html {
+    font-family: 'Myriad Pro Condensed', Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+    text-align: center;
+}
+
+.goldenrod {
+    background: #E39B24;
+}
+
+.green_page {
+    background-color: #1f5b0e;
+}
+
+.blue_page {
+    background-color: #113959;
+}
+
+.yellow_page {
+    background-color: #febc11;
+}
+
+.bronw_page {
+    background-color: #d59214;
+}
+
+.gray_page {
+    background-color: #e5e5e5;
+}
+
+.gree_ligth_page {
+    background-color: #839f7c;
+}
+
+.green_page_text {
+    color: #1f5b0e;
+}
+
+.blue_page_text {
+    color: #113959;
+}
+
+.yellow_page_text {
+    color: #febc11;
+}
+
+.bronw_page_text {
+    color: #d59214;
+}
+
+.gray_page_text {
+    color: #e5e5e5;
+}
+
+.gree_ligth_page_text {
+    color: #839f7c;
+}
+
+
+/*  */
+
+
+/*  */
+
+
+/*  */
