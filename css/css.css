@@ -289,3 +289,39 @@ nav */
         filter: none;
         -webkit-filter: none;
     }
+    /* reponsibe */
+    
+    @media only screen and (max-width: 600px) {
+        .firts_box .text h4 {
+            font-weight: 600;
+            font-size: large;
+        }
+        .second_box .box_of_data p {
+            margin-top: 5%;
+        }
+        .second_box .box_of_data img {
+            margin-top: 5%;
+            margin-bottom: 10%;
+        }
+        .test {
+            transform: matrix(1, -0.03, 0, 1, 0, 20);
+            -webkit-transform: matrix(1, -0.03, 0, 1, 0, 20);
+            -moz-transform: matrix(1, -0.03, 0, 1, 0, 20);
+            -ms-transform: matrix(1, -0.03, 0, 1, 0, 20);
+            -o-transform: matrix(1, -0.03, 0, 1, 0, 20);
+        }
+        .thirt_box {
+            margin-top: 15%;
+        }
+        .thirt_box p {
+            font-size: larger;
+        }
+        .cart_conten {
+            margin: 5%;
+        }
+        .cart_conten p {
+            font-size: 8px;
+            font-weight: 600;
+            padding: 5px;
+        }
+    }
