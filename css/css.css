@@ -65,6 +65,10 @@ img {
     background-color: #d59214;
 }
 
+.grey_darknnes {
+    background-color: #393939;
+}
+
 .gray_page {
     background-color: #e5e5e5;
 }
@@ -323,6 +327,12 @@ left: 7%; */
     filter: none;
     -webkit-filter: none;
 }
+
+
+/*  */
+
+
+/*  */
 
 
 /* reponsibe */
