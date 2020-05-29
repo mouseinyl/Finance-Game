@@ -68,8 +68,6 @@
 
     <div class="row " id="rendel">
 
-
-
     </div>
     <div class="button">
         <a href="#" class="btn small white black-text" onclick="Contador(-1)">back</a>
@@ -94,14 +92,31 @@
             color: white;
             font-weight: 600;
         }
+        
+        @media only screen and (min-width: 600px) and (max-width:992px) {
+            .conten {
+                border: 5px solid #1f5b0e;
+                margin-top: 15%;
+                height: 400px;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .conten {
+                border: 5px solid #1f5b0e;
+                margin-top: 25%;
+                height: 400px;
+            }
+        }
     </style>
     <script type=" text/javascript " src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
     <script type="text/javascript " src="js/materialize.min.js "></script>
     <script src="./js/temples.js"></script>
     <script>
         $(".button-collapse").sideNav();
-        carga(4)
+        carga(0)
     </script>
+
 </body>
 
 </html>

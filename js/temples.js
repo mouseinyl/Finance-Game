@@ -2,7 +2,7 @@ const temple = {
     temples: [
         ` 
             <!-- inicio -->
-                <div class="col s6 offset-s3 conten white">
+                <div class="col s10 m8 l6 offset-m2 offset-s1 offset-l3 conten white">
                     <img src="./recursos/juego_de_finanzas-01.jpg" alt="">
                 </div>
                 <style>
@@ -17,35 +17,38 @@ const temple = {
         `,
         //...................................................................... 
         `
-            <!-- inicio -->
-            <div class="col s6 offset-s3 conten grey_darknnes">
-                <div class="col s5 offset-s1 center">
-                    <img src="./recursos/assets/explainer1-01.png" class="col s10" alt="" srcset="">
-                    <p class="col s11 center">
-                        Las <span>FINANZAS</span> se definen como el arte y la ciencia de administrar el dinero
-                    </p>
-                </div>
-                <div class="col s6 subconten_2">
-                    <h5 class="col s12 center white blue_page_text">
+        <!-- inicio -->
+        <div class="col s10 m8 l6 offset-m2 offset-s1 offset-l3 conten grey_darknnes">
+            <div class="col s12 m12 l6 offset-s1 center">
+                <img src="./recursos/assets/explainer1-01.png" class="col s5 m5 l8 offset-l1" alt="" srcset="">
+                <p class="col s6 m6 l8 offset-l1 offset-m1  center white-text texto_1">
+                    Las <span>FINANZAS</span> se definen como el arte y la ciencia de administrar el dinero
+                </p>
+            </div>
+            <div class="col m12 l6 subconten_2">
+                <div class="col s12 m6 l12 center">
+                    <h5 class="col s12 white blue_page_text">
                         <span>A nivel</span> PERSONAL
                     </h5>
-                    <p class="col s12 center">
+                    <p class="col s12 white-text ">
                         Afectan las decisiones individuales de cuanto dinero gastar de los ingresos, cuanto ahorrar y como invertir los ahorros.
                     </p>
-                    <h5 class="col s12 center white blue_page_text">
+                </div>
+                <div class="col s12 m6 l12 center">
+                    <h5 class="col s12 white blue_page_text">
                         <span>A nivel</span> EMPRESARIAL
                     </h5>
-                    <p class="col s12 center">
+                    <p class="col s12 white-text ">
                         Implican el mismo tipo de deciciones: como incrementar el dinero de los invercionistas, como invertor el dinero para obtenet una utilidad, y de que modo convien reinvertir las ganancias de la empresa o distribuirlas entre los invercionistas.
                     </p>
                 </div>
             </div>
+        </div>
         <!-- fin -->
 
         <style>
             p {
-                color: white;
-                font-size: medium;
+                font-size: 90%;
             }
             
             p span {
@@ -66,15 +69,43 @@ const temple = {
             .conten h5,
             p,
             img {
-                margin-top: 12px;
+                margin-top: 15px;
                 margin-bottom: 12px;
+            }
+            
+            @media only screen and (min-width: 600px) and (max-width:992px) {
+                p {
+                    font-size: 12px;
+                }
+                p {
+                    margin-top: 0px;
+                    margin-bottom: 12px;
+                }
+                .texto_1 {
+                    margin-top: 13%;
+                    font-size: small;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                p {
+                    font-size: 12px;
+                }
+                p {
+                    margin-top: 0px;
+                    margin-bottom: 12px;
+                }
+                .texto_1 {
+                    margin-top: 6%;
+                    font-size: small;
+                }
             }
         </style>
         `,
         //...................................................................... 
-        `
-        <div class="col s6 offset-s3 conten grey_darknnes">
-            <div class="col s6 subconten">
+        ` <!-- question -->
+        <div class="col s10 m8 l6 offset-l3 offset-m2 offset-s1 conten grey_darknnes">
+            <div class="col s12 m12 l6 subconten">
                 <h6 class="col s12 white-text center ">Selecciona la respuesta correcta</h6>
                 <p class="col s12 label">
                     1-¿ Que son las finanzas ?
@@ -96,8 +127,8 @@ const temple = {
                     <p class="col s11">A y B son correctas.</p>
                 </div>
             </div>
-            <div class="col s5 ">
-                <div class="col s8 offset-s3 img_nube_pos">
+            <div class="col s12 m12 l6">
+                <div class="col s4 m4 l6 offset-l3 offset-s4 offset-m4 offset-l3 img_nube_pos">
                     <img src="./recursos/assets/nube.png" alt="" srcset="">
                 </div>
             </div>
@@ -156,46 +187,57 @@ const temple = {
             .img_nube_pos img {
                 margin-top: 80%;
             }
+            
+            @media only screen and (min-width: 600px) and (max-width:992px) {
+                .img_nube_pos img {
+                    margin-top: 10%;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .img_nube_pos img {
+                    margin-top: 50%;
+                }
+            }
         </style>
         `,
         //...................................................................... 
-
         `
-            <div class="col s6 offset-s3 conten grey_darknnes">
-            <div class="col s6 center ">
+        <div class="col s10 m8 l6 offset-m2 offset-s1 offset-l3 conten grey_darknnes">
+            <div class="col s12 m12 l6 center ">
                 <h6 class="col s12 white-text ">CONCEPTOS DE GASTOS.</h6>
                 <p class="col s12 white-text"> Por lo regular la gentela dedica poco tiempo a educar sobre conceptos de gastos, es decir, ingresos o salidads de dinero para el consumo personal y familiar.</p>
                 <br>
                 <p class="col s12 white-text">Es importante saber que hay dos tipos de gastos.</p>
-                <div class="col s12">
-                    <div class="col s5">
+                <div class="col s12 m12 l12">
+                    <div class="col s4 m3 l5 offset-m2 offset-s1">
                         <h6 class="col s12 label  center blue_page_text">Gastos Fijos</h6>
                         <img class="col s12" src="./recursos/assets/gastos-02.png" alt="">
                         <p class="col s12 white-text ejemplo">Ej.: Pago del alquiler de la casa.</p>
                     </div>
-                    <div class="col s5 offset-s1">
+                    <div class="col s4 m3 l5 offset-l1 offset-m1 offset-s1">
                         <h6 class="col s12 label  center blue_page_text">Gastos Variables</h6>
                         <img class="col s12" src="./recursos/assets/gastos-03.png" alt="">
                         <p class="col s12 white-text ejemplo">Ej.: Pago de energia electrica.</p>
                     </div>
                 </div>
             </div>
-            <div class="col s6 center ">
+            <div class="col s12 m12 l6 center ">
                 <p class="col s12 center white-text">Para controlarlos es necesario tener un presupuesto personal, una herramienta financiera que ayuda a matener el contro de los incgesos, gastos, ahorro e inversion.</p>
-                <div class="col s7 offset-s3 gastos_img">
-                    <div class="col s4">
+                <div class="col s11S m8 l7 offset-l3 gastos_img offset-m2">
+                    <div class="col s2 m2 l4">
                         <img src="./recursos/assets/gastos-07.png" class="cosita" alt="" srcset="">
                         <p class="col s12 white-text center">Ingresos</p>
                     </div>
-                    <div class="col s4">
+                    <div class="col s2 m2 l4">
                         <img src="./recursos/assets/gastos-06.png" alt="" srcset="">
                         <p class="col s12 white-text center">Gastos</p>
                     </div>
-                    <div class="col s4">
+                    <div class="col s2 m2 l4">
                         <img src="./recursos/assets/gastos-04.png" alt="" srcset="">
                         <p class="col s12 white-text center">Ahorro</p>
                     </div>
-                    <div class="col s4">
+                    <div class="col s2 m2 l4">
                         <img src="./recursos/assets/gastos-05.png" class="cosita" alt="" srcset="">
                         <p class="col s12 white-text center">Inversión</p>
                     </div>
@@ -227,7 +269,7 @@ const temple = {
             }
             
             p.ejemplo {
-                font-size: x-small;
+                font-size: 80%;
             }
             
             div.gastos_img div {
@@ -241,22 +283,79 @@ const temple = {
             div.gastos_img div img.cosita {
                 width: 117%;
             }
+            
+            @media only screen and (min-width: 600px) and (max-width:1292px) {
+                h6.label {
+                    font-size: x-small;
+                }
+                .conten p {
+                    margin-top: 2px;
+                    margin-bottom: 2px;
+                    font-size: 13px;
+                }
+                p.ejemplo {
+                    font-size:80%;
+                }
+                h6.label {
+                    margin-top: 5px;
+                }
+                div.gastos_img div {
+                    margin: 10px 10px 10px 10px !important;
+                }
+                div.gastos_img div p {
+                    font-size: x-small;
+                }
+                div.gastos_img div img {
+                    margin-left: 10px;
+                }
+                div.gastos_img div img.cosita {
+                    width: 115%;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                h6.label {
+                    font-size: 8.5px;
+                }
+                .conten p {
+                    margin-top: 1px;
+                    margin-bottom: 1px;
+                    font-size: 13px;
+                }
+                p.ejemplo {
+                    font-size: 6px;
+                }
+                h6.label {
+                    margin-top: 2px;
+                }
+                div.gastos_img div {
+                    margin: 10px 10px 10px 5px !important;
+                }
+                div.gastos_img div p {
+                    font-size: x-small;
+                }
+                div.gastos_img div img {
+                    margin-left: 10px;
+                }
+                div.gastos_img div img.cosita {
+                    width: 115%;
+                }
+            }
         </style>
-        
+
 
         `,
         //...................................................................... 
-
         `
-        <div class="col s6 offset-s3 conten grey_darknnes">
-            <div class="col s6 subconten">
+        <div class="col s10 m8 l6 offset-l3 offset-m2 offset-s1 conten grey_darknnes">
+            <div class="col s12 m12 l6 subconten">
                 <h6 class="col s12 white-text center ">Selecciona la respuesta correcta</h6>
                 <p class="col s12 label">
                     1-¿ Que son las gastos ?
                 </p>
                 <div class="col s12 question">
                     <span class="col s1">A</span>
-                    <p class="col s11">el dinero que llevo en el bolsillo.</p>
+                    <p class="col s11">El dinero que llevo en el bolsillo.</p>
                 </div>
                 <div class="col s12 question">
                     <span class="col s1">B</span>
@@ -264,18 +363,19 @@ const temple = {
                 </div>
                 <div class="col s12 question">
                     <span class="col s1">C</span>
-                    <p class="col s11">El dinero de la alcancia.</p>
+                    <p class="col s11">El dinero de la alcancia</p>
                 </div>
                 <div class="col s12 question">
                     <span class="col s1">D</span>
                     <p class="col s11">Egresos o salidas de dinero para el consumo personal y familiar.</p>
                 </div>
             </div>
-            <div class="col s5 ">
-                <div class="col s8 offset-s3 img_nube_pos">
+            <div class="col s12 m12 l6">
+                <div class="col s4 m4 l6 offset-l3 offset-s4 offset-m4 offset-l3 img_nube_pos">
                     <img src="./recursos/assets/nube.png" alt="" srcset="">
                 </div>
             </div>
+            
         </div>
 
 
@@ -329,80 +429,106 @@ const temple = {
             }
             
             .img_nube_pos img {
-                margin-top: 80%;
+                margin-top: 50%;
+            }
+            
+            @media only screen and (min-width: 600px) and (max-width:992px) {
+                .img_nube_pos img {
+                    margin-top: 10%;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .img_nube_pos img {
+                    margin-top: 50%;
+                }
             }
         </style>
         `,
         //...................................................................... 
         `
-        <div class="col s6 offset-s3 conten grey_darknnes">
-            <div class="col s6 center ">
-                <img src="./recursos/assets//edufinance.png" class="col s7 offset-s2" alt="" srcset="">
-                <p class="col s12 center white-text">
+        <div class="col s10 m8 l6 offset-m2 offset-s1 offset-l3 conten grey_darknnes">
+            <div class="col s12 m6 l6 center ">
+                <img src="./recursos/assets//edufinance.png" class="col s6 m9 l7 offset-l2 offset-m1" alt="" srcset="">
+                <p class="col s6 m12 l12 center white-text">
                     Es lamentable decir que la educacion dinanciera personal y familiar no forma parte de los programas educativos de nigun nive, en tal sentido existe mucha gente con creencias limitadas sobre el diner, y basados en sus creencias emiten opiniones.
                 </p>
             </div>
-            <div class="col s6 center second">
-                <p class="col s12 center white-text">
+            <div class="col s12 m6 s6 center second">
+                <p class="col s6 m12 l12 center white-text">
                     Ese tipo de persona vivie dando recomendaciones financieras cuado sus opiniones estan basadas en creencias limitantes
                 </p>
-                <img src="./recursos/assets/confused-02.png" class="col s7 offset-s2" alt="" srcset="">
+                <img src="./recursos/assets/confused-02.png" class="col s6 m9 l7 offset-l2 offset-m1" alt="" srcset="">
             </div>
-
         </div>
         <style>
-            div.second * {
+            div.second div {
                 margin-top: 25px;
             }
+            
+            @media only screen and (min-width: 600px) and (max-width:992px) {
+                div.conten div {
+                    margin-top: 35px;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                div.conten div {
+                    margin-top: 40px;
+                }
+                div.conten div p {
+                    font-size: x-small;
+                }
+                div.conten div.second p {
+                    margin-top: 25px;
+                }
+            }
         </style>
-
-
         `,
         //...................................................................... 
         `
-        <div class="col s6 offset-s3 conten grey_darknnes">
-            <div class="col s6 center contenido">
-                <p class="col s12 center white-text ">
+        <div class="col s10 m8 l6 offset-l3 offset-m2 offset-s1 conten grey_darknnes">
+            <div class="col s12 m6 l6 center contenido">
+                <p class="col s12 center white-text text_1">
                     La mayoria de las personas y familias no estipulan un porcentaje de sus ingresos para cada gasto, segun algunos expertos en finazaqs personales la gente deberia destinar entre :
                 </p>
-                <div class="col s9 offset-s1 tipos_img">
-                    <div class="col s12">
-                        <div class="col s5">
-                            <img src="./recursos/assets/alimentacion-02.png" alt="" class="col s12" srcset="">
-                            <p class="col s12 center porciento blue_page_text">15-35%</p>
-                            <p class="col s12 white-text center">Alimentacion</p>
-                        </div>
-
-                        <div class="col s5 cosita">
-                            <img src="./recursos/assets/casa-02.png" alt="" class="col s11 " srcset="">
-                            <p class="col s12 center porciento blue_page_text">15-25%</p>
-                            <p class="col s12 white-text center">Alquiler de vivienda</p>
-                        </div>
+                <div class="col s12 m12 l9  offset-l1 offset-m1 tipos_img">
+                    <div class="col s3 m5 l5">
+                        <img src="./recursos/assets/alimentacion-02.png" alt="" class="col s12 l12 m12" srcset="">
+                        <p class="col s12 center porciento blue_page_text">15-35%</p>
+                        <p class="col s12 white-text center">Alimentacion</p>
                     </div>
-                    <div class="col s12">
-                        <div class="col s5">
-                            <img src="./recursos/assets/carro-02.png" alt="" class="col s12" srcset="">
-                            <p class="col s12 center porciento blue_page_text">10-15%</p>
-                            <p class="col s12 white-text center">Trasporte o vehiculo</p>
-                        </div>
-                        <div class="col s5 cosita">
-                            <img src="./recursos/assets/gastos-04.png" alt="" class="col s9 offset-s1 " srcset="">
-                            <p class="col s12  center porciento blue_page_text">5-10%</p>
-                            <p class="col s12 white-text center ">Ahorro</p>
-                        </div>
+
+                    <div class="col s3 m5 l5 cosita">
+                        <img src="./recursos/assets/casa-02.png" alt="" class="col s11 " srcset="">
+                        <p class="col s12 center porciento blue_page_text">15-25%</p>
+                        <p class="col s12 white-text center">Alquiler de vivienda</p>
+                    </div>
+
+
+                    <div class="col s3 m5 l5">
+                        <img src="./recursos/assets/carro-02.png" alt="" class="col s12" srcset="">
+                        <p class="col s12 center porciento blue_page_text">10-15%</p>
+                        <p class="col s12 white-text center">Trasporte o vehiculo</p>
+                    </div>
+                    <div class="col s3 m5 l5 cosita">
+                        <img src="./recursos/assets/gastos-04.png" alt="" class="col m9 l9 offset-m1 offset-l1 " srcset="">
+                        <p class="col s12  center porciento blue_page_text">5-10%</p>
+                        <p class="col s12 white-text center ">Ahorro</p>
+
                     </div>
                 </div>
             </div>
-            <div class="col s6 center contenido ">
-                <img src="./recursos/assets/gastos hormiga-02.png" class="col s7 offset-s3" alt="" srcset="">
-                <p class="col s12 center white-text">
+            <div class="col s12 m6 s6 center contenido ">
+                <img src="./recursos/assets/gastos hormiga-02.png" class="col s5 m9 l7 offset-s3 offset-m1" alt="" srcset="">
+                <p class="col s12 center white-text  text_2">
                     Tambien se recomienda cuidarse de los gastos hormigas, so los gastos no planificados de poco significado en el momento como el pago a los parqueaderos, imprevistos, los limpiadores de cristales en semaforos, gastos en reuniones de amigos.
                 </p>
             </div>
 
         </div>
         <style>
-            .contenido {
+                .contenido {
                 margin-top: 10px;
             }
             
@@ -428,13 +554,71 @@ const temple = {
             p.porciento {
                 background: white;
             }
+            
+            @media only screen and (min-width: 600px) and (max-width:1492px) {
+                div.tipos_img div {
+                    margin: 6px;
+                }
+                .porciento {
+                    border-radius: 20px;
+                    font-size: x-small;
+                    font-weight: 700;
+                    margin: 5px;
+                }
+                .contenido {
+                    margin-top: 20px;
+                }
+                .porciento+p {
+                    font-size: xx-small;
+                    padding: 0px !important;
+                }
+                .text_1 {
+                    margin-bottom: 10px;
+                }
+                .text_2 {
+                    margin-top: 10px;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                div.tipos_img {
+                    margin-top: 10px;
+                }
+                div.tipos_img div {
+                    margin: 0px;
+                }
+                .porciento {
+                    border-radius: 20px;
+                    font-size: small;
+                    font-weight: 700;
+                    margin: 2px;
+                }
+                div.tipos_img div.cosita {
+                    margin: -2px 0px 0px 0px !important;
+                }
+                .porciento {
+                    border-radius: 20px;
+                    font-size: xx-small;
+                    font-weight: 700;
+                    margin: 5px;
+                }
+                .text_1 {
+                    font-size: small;
+                }
+                .text_2 {
+                    font-size: small;
+                }
+                .porciento+p {
+                    font-size: xx-small;
+                    padding: 0px !important;
+                }
         </style>
 
         `,
         //...................................................................... 
         `
-        <div class="col s6 offset-s3 conten grey_darknnes">
-            <div class="col s6 subconten">
+        <div class="col s10 m8 l6 offset-l3 offset-m2 offset-s1 conten grey_darknnes">
+            <div class="col s12 m12 l6 subconten">
                 <h6 class="col s12 white-text center ">Selecciona la respuesta correcta</h6>
                 <p class="col s12 label">
                     1-¿ Cual es tu opinion con relacion al ahorro ?
@@ -456,8 +640,8 @@ const temple = {
                     <p class="col s11">B y C son correctas.</p>
                 </div>
             </div>
-            <div class="col s5 ">
-                <div class="col s8 offset-s3 img_nube_pos">
+            <div class="col s12 m12 l5">
+                <div class="col s4 m4 l12 offset-l3 offset-s4 offset-m4 img_nube_pos">
                     <img src="./recursos/assets/nube.png" alt="" srcset="">
                 </div>
             </div>
@@ -515,6 +699,23 @@ const temple = {
             
             .img_nube_pos img {
                 margin-top: 80%;
+            }
+            
+            @media only screen and (min-width: 600px) and (max-width:992px) {
+                .img_nube_pos img {
+                    margin-top: 10%;
+                }
+            }
+            
+            @media only screen and (max-width: 600px) {
+                .img_nube_pos img {
+                    margin-top: 50%;
+                }
+                .question p {
+                    font-size: xx-small;
+                    font-weight: 600;
+                    border-radius: 0px 10px 10px 0px
+                }
             }
         </style>
         `,
