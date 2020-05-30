@@ -70,8 +70,11 @@
 
     </div>
     <div class="button">
-        <a href="#" class="btn small white black-text" onclick="Contador(-1)">back</a>
-        <a href="#" class="btn small white black-text" onclick="Contador(1)">next</a>
+        <a href="#" class="col s12" onclick="Contador(-1)">
+            Empesar
+            <i class=" material-icons white-text ">keyboard_arrow_right</i> 
+        </a>
+        <a href="#" onclick="Contador(1)">next</a>
     </div>
 
     <style>
@@ -91,6 +94,11 @@
         .button a {
             color: white;
             font-weight: 600;
+        }
+        
+        i {
+            position: relative;
+            top: 7px;
         }
         
         @media only screen and (min-width: 600px) and (max-width:992px) {
