@@ -1,0 +1,65 @@
+  .bol {
+      margin-top: 10.5%;
+  }
+  
+  .conten {
+      border: 14px solid #1f5b0e;
+      border-radius: 35px;
+      box-sizing: border-box;
+      padding: 0px !important;
+      height: 370px;
+  }
+  
+  .button {
+      margin-top: 10px;
+  }
+  
+  .button a {
+      color: white;
+      font-weight: 600;
+  }
+  
+  i {
+      position: relative;
+      top: 7px;
+  }
+  
+  a.derecho {
+      text-align: right;
+  }
+  
+  .img_nube_pos span {
+      border-radius: 20px;
+      padding: 5px 0px 5px 0px !important;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+      html {
+          font-size: small;
+      }
+      .img_nube_pos img {
+          position: relative;
+          top: 70%;
+          width: 70%;
+      }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width:992px) {
+      .bol {
+          margin-top: 15%;
+      }
+      .conten {
+          border: 5px solid #1f5b0e;
+          height: 400px;
+      }
+  }
+  
+  @media only screen and (max-width: 600px) {
+      .bol {
+          margin-top: 15%;
+      }
+      .conten {
+          border: 5px solid #1f5b0e;
+          height: 400px;
+      }
+  }
